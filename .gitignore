@@ -1,0 +1,8 @@
+# .gitignore
+/docs/
+/.docs/
+/lib/
+/bin/
+/.shards/
+*.dwarf
+shard.lock

@@ -1,0 +1,11 @@
+# shard.yml
+name: bytewire
+version: 0.6.0
+
+authors:
+  - shpeckman
+
+crystal: ">= 1.21"
+
+license: MIT
+
