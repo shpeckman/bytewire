@@ -1,0 +1,21 @@
+# shard.yml
+name: bytewire
+version: 0.6.0
+
+authors:
+  - shpeckman
+
+description: |
+  A growable byte buffer for Crystal with allocation-free appends, a cursor for
+  reading bytes back, and templates that describe a byte sequence once and both
+  write and read it.
+  
+  It is built for code that emits and parses a lot of small, structured byte
+  sequences, such as terminal escape codes
+
+repository: "https://github.com/shpeckman/bytewire"
+
+crystal: ">= 1.21"
+
+license: MIT
+
